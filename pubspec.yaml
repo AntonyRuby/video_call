@@ -1,0 +1,26 @@
+name: video_call_app
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_webrtc: ^0.13.0
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  agora_rtc_engine: ^6.5.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
